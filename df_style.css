@@ -1,6 +1,29 @@
+/*###########################################
+
+    ____                  __           
+   / __ \____  __  ______/ /___  __  __
+  / / / / __ \/ / / / __  / __ \/ / / /
+ / /_/ / /_/ / /_/ / /_/ / /_/ / /_/ / 
+/_____/\____/\__,_/\__,_/\____/\__,_/  
+                                       
+	Projet : RPID6
+	Auteur : Doudou FALL
+	Date : mars 2014
+	Version : 1.0
+
+###########################################*/
+#content {
+	width: 1024px;
+	margin: auto;
+}
+#menu>li:nth-of-type(1) {
+	z-index: -1;
+}
 #menu>li>a {
 	color: red;
-	display: inline;
+	display: block;
+	background: grey url('sprite.gif') no-repeat;
+	height: 100px;
 }
 section {
 	width:  500px;
@@ -40,4 +63,7 @@ section {
 	background: url(http://adeline-et-olivier.com/images/cook/cook8.jpg);
 	background-repeat: no-repeat;
 	background-size: 200px 300px;
+}
+#menu + section {
+	width: 100%;
 }
