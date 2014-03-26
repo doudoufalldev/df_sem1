@@ -1,0 +1,43 @@
+#menu>li>a {
+	color: red;
+	display: inline;
+}
+section {
+	width:  500px;
+	height: 100px
+}
+#trip_target, #enjoy_target, #learn_target, #cook_target {
+	display: none;
+} 
+
+#trip_target:target{
+	display: block;
+	height: 400px;
+	background: url(http://www.machronique.com/wp-content/uploads/2009/11/voyage-en-avion-490x313.jpg);
+	background-repeat: no-repeat;
+	background-size: 200px 300px;
+}
+
+#enjoy_target:target{
+	display: block;
+	height: 400px;
+	background: url(http://denissoupault.files.wordpress.com/2011/12/enjoy-your-life.jpg);
+	background-repeat: no-repeat;
+	background-size: 200px 300px;
+}
+
+#learn_target:target{
+	display: block;
+	height: 400px;
+	background: url(http://www.developpeur-agile.fr/wp-content/uploads/2012/10/learn-something.jpg);
+	background-repeat: no-repeat;
+	background-size: 200px 300px;
+}
+
+#cook_target:target{
+	display: block;
+	height: 400px;
+	background: url(http://adeline-et-olivier.com/images/cook/cook8.jpg);
+	background-repeat: no-repeat;
+	background-size: 200px 300px;
+}
