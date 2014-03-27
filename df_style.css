@@ -94,10 +94,19 @@ section {
 #slideshow {
 	height: 300px;
 	width: 400px;
-	overflow: hidden;
+	/*overflow: hidden;*/
 }
-#slideshow img{
+#ecran {
+	position: relative;
+	width: 1200px;
+}
+.img_slide {
+	display: inline-block;
+}
+.img_slide img{
 	height: 280px;
 	width: 380px;
-	display: inline-block;
+	max-width: 50px;
+	max-height: 50px;
+	
 }

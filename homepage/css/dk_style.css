@@ -32,6 +32,39 @@
 	width: 400px;
 }
 .section_img {
-	height: 200px;
+	height: 241px !important;
 	width: 360px;
+}
+.section_img > p{
+	height: 80px !important;
+}
+#trip_description {
+	border-bottom: 6px solid red; 
+}
+#estate_description {
+	border-bottom: 6px solid green; 
+}
+#car_description {
+	border-bottom: 6px solid orange; 
+}
+#restaurant_description {
+	border-bottom: 6px solid orange; 
+}
+#hotel_description {
+	border-bottom: 6px solid #0079AA; 
+}
+#party_description {
+	border-bottom: 6px solid #9124B1; 
+}
+#etude_description {
+	border-bottom: 6px solid black; 
+}
+#job_description {
+	border-bottom: 6px solid black; 
+}
+#fashion_description {
+	border-bottom: 6px solid #FAC463; 
+}
+#home_slide_top > div {
+	margin: auto;
 }
