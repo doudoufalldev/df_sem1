@@ -12,6 +12,7 @@
 	Version : 1.0
 
 ###########################################*/
+@import url('animation.css');
 #content {
 	width: 1024px;
 	margin: auto;
@@ -66,4 +67,37 @@ section {
 }
 #menu + section {
 	width: 100%;
+}
+#test {
+	background-color: #046380;
+}
+
+#test form {
+	width: 200px;
+	background-color: #40A497;
+}
+#test fieldset, input {
+	border: none;
+}
+#test input {
+	color: #929C94;
+}
+#test input:not([type="submit"]) {
+	padding: 3px 0 3px 15px;
+}
+#test form label:hover {
+	background-color: black;
+}
+#test fieldset, input {
+	border: none;
+}
+#slideshow {
+	height: 300px;
+	width: 400px;
+	overflow: hidden;
+}
+#slideshow img{
+	height: 280px;
+	width: 380px;
+	display: inline-block;
 }

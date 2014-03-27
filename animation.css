@@ -1,0 +1,11 @@
+#slideshow {
+	animation: slidehibou 5s ease infinite;
+	-webkit-animation: slidehibou 5s ease infinite;
+	-moz-animation: slidehibou 5s ease infinite;
+}
+
+@keyframes slidehibou {
+	from {left:0;}
+	to{left: -200%;}
+}
+@-webkit

@@ -4,12 +4,34 @@
 	<meta charset="UTF-8">
 	<title>Document</title>
 	<link rel='stylesheet' type="text/css" href="df_style.css"></link>
+	<script src="carte.js" ></script>
+	<script src="http://code.jquery.com/jquery-2.1.0.min.js"></script>
 </head>
 <body>
 	<section id="content">
 		<header>
+			<div id="test">
+				<form action="formulaire.php" method="post" enctype="multipart/form-data">
+					<fieldset>
+						<label for="log">LOGIN</label>
+						<input type="email" name="email" value="E-mail" />
+					</fieldset>
+					<fieldset>
+						<label for="log">Passwd</label>
+						<input id="pass" type="password" name="password" value="Mot de passe"/>
+					</fieldset>
+					
+					<input type="submit" value="Envoyer" />
+				</form>
+			</div>
 		</header>	
-		<nav>
+		<canvas id="carte" width="498" height="390"></canvas>
+		<div id="slideshow">
+			<img src="homepage/img/sport.jpg" alt="">
+			<img src="homepage/img/fashion.jpg" alt="">
+			<img src="homepage/img/party.jpg" alt="">
+		</div>
+		<!-- <nav>
 			<ul id="menu">
 				<li><a href="#trip_target">Voyager</a></li>
 				<li><a href="#enjoy_target">S'amuser</a></li>
@@ -17,10 +39,15 @@
 				<li><a href="#cook_target">Cuisiner</a></li>
 			</ul>
 		</nav>
-		<section id="trip_target"></section>
-		<section id="enjoy_target"></section>
-		<section id="learn_target"></section>
-		<section id="cook_target"></section>
+		<section id="trip_target">doudou</section>
+		<section id="enjoy_target">leydi</section>
+		<section id="learn_target">fall</section>
+		<section id="cook_target">df</section> -->
 	</section>
+<script type="text/javascript" >
+	$(document).ready(function() {
+		carte();
+	});
+</script>
 </body>
 </html>
